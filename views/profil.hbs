@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-4">Profil</h1>
+        <div class="bg-white p-6 rounded-md shadow-md">
+            <div class="mb-4">
+                <label for="nom" class="block text-sm font-medium text-gray-700">Nom :</label>
+                <p id="nom" class="mt-1 text-lg">{{nom}}</p>
+            </div>
+            <div class="mb-4">
+                <label for="prenom" class="block text-sm font-medium text-gray-700">Prénom :</label>
+                <p id="prenom" class="mt-1 text-lg">{{prenom}}</p>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email :</label>
+                <p id="email" class="mt-1 text-lg">{{email}}</p>
+            </div>
+            <div class="mb-4">
+                <label for="profession" class="block text-sm font-medium text-gray-700">Profession :</label>
+                <p id="profession" class="mt-1 text-lg">{{profession}}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
